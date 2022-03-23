@@ -8,9 +8,9 @@ import React from "react";
 export default function() {
   const [chains, setChains] = React.useState<Chain[]>([
     {
-      name: "Selendra App",
-      network: "mainnet",
-      rpc: ["wss://rpc-mainnet.selendra.org"],
+      name: "Indranet",
+      network: "testnet",
+      rpc: ["wss://indranet.selendra.org"],
     },
     {
       name: "Cardamon",
@@ -18,9 +18,9 @@ export default function() {
       rpc: ["wss://rpc1-testnet.selendra.org"],
     },
     {
-      name: "Indranet",
-      network: "testnet",
-      rpc: ["wss://indranet.selendra.org"],
+      name: "Selendra App",
+      network: "mainnet",
+      rpc: ["wss://rpc-mainnet.selendra.org"],
     },
   ]);
 
