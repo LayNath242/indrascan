@@ -10,7 +10,7 @@ export default function() {
     {
       name: "Indranet",
       network: "testnet",
-      rpc: ["wss://indranet.selendra.org"],
+      rpc: ["https://indranet-rpc.selendra.org"],
     },
     {
       name: "Cardamon",
